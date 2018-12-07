@@ -1,0 +1,16 @@
+
+.left-sidebar li:nth-child(1) {
+  background: #3b5999;
+}
+.left-sidebar li:nth-child(2) {
+  background: #55acee;
+}
+.left-sidebar li:nth-child(3) {
+  background: #e4405f;
+}
+.left-sidebar li:nth-child(4) {
+  background: #bd081c;
+}
+.left-sidebar li:nth-child(5) {
+  background: #cd201f;
+}

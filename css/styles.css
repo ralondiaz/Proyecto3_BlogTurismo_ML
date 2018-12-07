@@ -32,7 +32,7 @@ nav {
   line-height: 56px;
 }
 .responsive-img{
-  border: 0.5rem solid #ffffff;
+  border: 0.2rem solid #ffffff;
   border-radius: 5px;
   margin-top: 10px;
 
@@ -49,4 +49,30 @@ nav {
   background-color: rgba(0,0,0,0.6);
   color: #fff;
   padding: 0.5em;
+}
+.left-sidebar {
+  position: fixed;
+  top: 30%;
+  z-index:999;
+  padding: 0px;
+  margin: 0px;
+}
+.left-sidebar ul {
+  border: none;
+}
+.left-sidebar i.fa {
+  padding: 0px;
+  font-size: 25px;
+}
+.left-sidebar li {
+  width: auto;
+  transition: 5s;
+}
+#left_sidebar {
+  padding: 8px;
+  margin: 0px;
+}
+#galeria {
+  border: 2px;
+
 }
