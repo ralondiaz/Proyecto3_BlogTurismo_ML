@@ -10,7 +10,10 @@ background: url(../images/santa_maria_1.jpg) ;
 div, body{
   margin: 0;
   padding: 0;
-  }
+}
+p {
+	text-align: justify;
+}
 .wrapper {
   height: 100%;
   width: 100%
@@ -74,5 +77,26 @@ nav {
 }
 #galeria {
   border: 2px;
-
+}
+#new {
+	margin: 0px 0px 0px 10px;
+	padding: 0px 20px 0px 0px;
+}
+#new_img {
+	float: left;
+	margin: 0px 10px 0px 0px;
+	padding: 0px;
+}
+#new_info {
+	display: inline-block;
+	padding: 4px;
+	margin-top: 5px;
+	background-color: #DFDFDF !important;
+  color: #000000 !important;
+	border-radius: 5px;
+	font-size: 0.8rem;
+}
+#new_icons {
+margin: 0px;
+padding: 1px 0px 0px 2px;
 }
