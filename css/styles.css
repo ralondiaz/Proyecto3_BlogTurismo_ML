@@ -14,24 +14,6 @@ div, body{
 p {
 	text-align: justify;
 }
-.wrapper {
-  height: 100%;
-  width: 100%
-}
-#slogan {
-	padding: 0px;
-}
-#slogan1 {
-margin: 20px 0px 0px 0px;
-padding: 0px;
-text-shadow: 3px 2px 4px #757575;
-background-color: #0277bd;
-}
-#slogan2 {
-margin: 0px;
-padding: 0px;
-background-color: #0277bd;
-}
 nav {
   color: #fff;
   background-color: #0277bd;
@@ -41,17 +23,10 @@ nav {
 	padding: 0px;
 	margin: 0px;
 }
-#nav-mobile {
-	padding: 0px;
-	margin: 0px;
-}
-#btn_nav {
-	padding: 0px 4px;
-	margin: 0px 4px;
-}
-#menu {
-	margin: 0px;
-	padding: 0px;
+
+.wrapper {
+  height: 100%;
+  width: 100%
 }
 .responsive-img{
   border: 0.2rem solid #ffffff;
@@ -89,23 +64,37 @@ nav {
   width: auto;
   transition: 5s;
 }
-#left_sidebar {
-  padding: 8px;
-  margin: 0px;
+#slogan {
+	padding: 0px;
 }
-#galeria {
-  border: 2px;
+#slogan1 {
+margin: 20px 0px 0px 0px;
+padding: 0px;
+text-shadow: 3px 2px 4px #757575;
+background-color: #0277bd;
 }
-#new_back {
-	margin: 0px 0px 0px 10px;
-	padding: 0px 20px 0px 0px;
+#slogan2 {
+margin: 0px;
+padding: 0px;
+background-color: #0277bd;
+}
+#nav-mobile {
+	padding: 0px;
+	margin: 0px;
+}
+#btn_nav {
+	padding: 0px 4px;
+	margin: 0px 4px;
+}
+#menu {
+	margin: 0px;
+	padding: 0px;
 }
 #new_img {
 	float: left;
 	margin: 0px 10px 0px 0px;
 	padding: 0px;
 	border-radius: 5px;
-	margin-top: 5px;
 }
 #new_info {
 	display: inline-block;
@@ -124,44 +113,22 @@ padding: 1px 0px 0px 2px;
 	padding-top: 20px;
 }
 #autor {
-	padding: 0px 40px 0px 40px;
+	padding: 0px 22px 0px 10px;
 }
 #autor_title {
 	border-bottom: 2px solid;
 	border-color: #DFDFDF;
 	margin-bottom: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#top {
-  color: #fff;
-  background-color: #0277bd;
-  width: 100%;
-  height: 60px;
-  line-height: 56px;
-	padding: 0px;
+#valign-top {
+	vertical-align: top;
+}
+#entrada {
+	padding-left: 0px;
+	padding-right: 0px;
 	margin: 0px;
 }
+
 @media screen and (max-width: 600px){
 	nav {
 	  color: #fff;
@@ -177,5 +144,19 @@ padding: 1px 0px 0px 2px;
 	padding: 0px;
 	text-shadow: 3px 2px 4px #757575;
 	background-color: #0277bd;
+	}
+	#new_back {
+		margin: 0px 0px 0px 0px;
+		padding: 0px;
+	}
+	#autor {
+		padding: 0px 0px 0px 0px;
+		margin: 0px;
+	}
+	#new_img {
+		width: 95%;
+		margin: 0px 0px 10px 0px;
+		padding: 0px;
+		border-radius: 5px;
 	}
 }
